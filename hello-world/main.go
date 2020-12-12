@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
-
+	n, _ := fmt.Println("Hello world, 34, true")
+	fmt.Println(n)
+	//fmt.Println(err)
 	foo()
 
 	for i := 1; i < 21; i++ {
@@ -23,3 +24,8 @@ func foo() {
 func bale() {
 	fmt.Println("I am in bar")
 }
+
+// control flow:
+// (1) sequence
+// (2) loop; iterative
+// (3) conditional
